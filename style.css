@@ -143,12 +143,12 @@ ul {
   padding: 21px 115px;
   background: #490e84;
   border-radius: 30px;
+  transition: 0.5s;
 }
 .btn:hover {
   box-shadow: 0 0 7px 0 #490e84;
   background: transparent;
   color: #490e84;
-  transition: 0.5s;
 }
 .infoblock {
   display: block;
@@ -192,6 +192,7 @@ ul {
 .SelectColor__img {
   display: flex;
   justify-content: space-between;
+  transition: 0.7s;
 }
 .SelectColor__img_select {
   /* text-decoration: none; */
@@ -205,7 +206,6 @@ ul {
 }
 .SelectColor__img_select:hover {
   box-shadow: 0 0 7px 0 #490e84;
-  transition: 0.7s;
   border-radius: 30px;
 }
 .SelectColor__img_select:focus {
@@ -298,12 +298,12 @@ input:invalid {
   color: #574b63;
   background-color: #fff;
   text-decoration: none;
+  transition: 0.5s;
 }
 .light-btn:hover {
   box-shadow: 0 0 7px 0 #fff;
   background-color: transparent;
   color: #fff;
-  transition: 0.5s;
 }
 .ToOrder__img {
   position: relative;
